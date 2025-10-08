@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./acess/css/style.css">
+</head>
+<body>
+    <header class="header-hoan">
+        <div class="container mx-auto">
+            <div class="search-lang flex justify-between">
+                <form action="">
+                    <input class="poppins font-light" type="text" placeholder="Suchen Sie nach Produkten, Marken und mehr">
+                </form>
+                <div class="lang">
+                    <input type="checkbox" id="lang-toggle" class="hidden">
+                    <label for="lang-toggle" class="flex items-center cursor-pointer space-x-1 pt-2">
+                        <b class="text-white">En</b>
+                        <ion-icon class="text-white" name="chevron-down-outline"></ion-icon>
+                    </label>
+                    <ul id="lang-menu" class="bg-white w-[30px] flex flex-col items-center justify-center opacity-0 pointer-events-none">
+                        <li><a href="">En</a></li>
+                        <li><a href="">Vi</a></li>
+                    </ul>
+                </div>
+                <div class="a-and-c flex flex-wrap">
+                    <div class="flex text-white">
+                        <ion-icon class="text-2xl" name="person-outline"></ion-icon>
+                        <h6 class="ml-1">Account</h6>
+                    </div>
+                      <div class="flex text-white">
+                        <ion-icon class=" text-2xl" name="cart-outline"></ion-icon>
+                        <h6 class="ml-1">Card</h6>
+                    </div>
+                </div>  
+            </div>
+            <hr class="mb-[19px]">
+            <div class="tab mx-auto text-white text-[15px]">
+                <ul class="flex gap-6">
+                    <li>Beleuchtung<ion-icon class="ml-1 align-middle" name="chevron-down-outline" ></ion-icon></li>
+                    <li>Growbox<ion-icon class="ml-1 align-middle" name="chevron-down-outline"></ion-icon></li>
+                    <li>Dünger<ion-icon class="ml-1 align-middle" name="chevron-down-outline"></ion-icon></li>
+                    <li>Erde & Substrate<ion-icon class="ml-1 align-middle" name="chevron-down-outline"></ion-icon></li>
+                    <li>Töpfe & Behälter<ion-icon class="ml-1 align-middle" name="chevron-down-outline"></ion-icon></li>
+                    <li>Bewässerung<ion-icon class="ml-1 align-middle" name="chevron-down-outline"></ion-icon></li>
+                    <li>Pflanzen & Gärtnern<ion-icon class="ml-1 align-middle" name="chevron-down-outline"></ion-icon></li>
+                    <li>Lüftung & Klimaanlage<ion-icon class="ml-1 align-middle" name="chevron-down-outline"></ion-icon></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="topfe">
+        <div class="picture-hoan"></div>
+    </div>
+    <section>
+        <div class="container mx-auto mt-[4rem]">
+        <div class="ekki grid grid-cols-4 gap-6">
+
+            <div class="so1 flex flex-wrap">
+                <div class="pic"></div>&nbsp;
+                <h6>Eckige Töpfe</h6>
+            </div>
+
+            <div class="so1 flex flex-wrap">
+                <div class="pic"></div>&nbsp;
+                <h6>Runde Töpfe</h6>
+            </div>
+
+            <div class="so1 flex flex-wrap">
+                <div class="pic"></div>&nbsp;
+                <h6>Untersetzer</h6>
+            </div>
+
+            <div class="so1 flex flex-wrap">
+                <div class="pic"></div>&nbsp;
+                <h6>Pflanzschalen</h6>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto flex flex-wrap mt-[117px] gap-6">
+            <div>
+                <label for="">Sort By :</label>
+                <select name="" id="">
+                     <option value="" disabled selected>Newest</option>
+                </select>
+            </div>
+             <div>
+                <label for="">Show :</label>
+                <select name="" id="">
+                     <option value="" disabled selected>Default</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-pro mx-auto flex flex-wrap">
+            <div class="main mx-auto grid grid-cols-3">
+                <div class="product">
+                    <div class="pic-1"></div>
+                    <p>Square cultivation pots</p><p>$38.00 &nbsp;<span class="line-through">$45.00</span></p>
+                </div>
+                 <div class="product">
+                    <div class="pic-1"></div>
+                    <p>Round plant pots</p><p>$28.00</p>
+                </div>
+                 <div class="product">
+                    <div class="pic-1"></div>
+                    <p>Square plant pots</p><p>$21.00 &nbsp;<span class="line-through">$45.00</span></p>
+                </div>
+                 <div class="product">
+                    <div class="pic-1"></div>
+                    <p>Square cultivation pots</p><p>$45.00</p>
+                </div>
+                 <div class="product">
+                    <div class="pic-1"></div>
+                    <p>Round plant pots</p><p>$23.00 &nbsp;<span class="line-through">$45.00</span></p>
+                </div>
+                 <div class="product">
+                    <div class="pic-1"></div>
+                    <p>Square plant pots</p><p>$17.00</p>
+                </div>
+                 <div class="product">
+                    <div class="pic-1"></div>
+                    <p>Square cultivation pots</p><p>$12.00</p>
+                </div>
+                 <div class="product">
+                    <div class="pic-1"></div>
+                    <p>Round plant pots</p><p>$25.00</p>
+                </div>
+                 <div class="product">
+                    <div class="pic-1"></div>
+                    <p>Square plant pots</p><p>$10.00</p>
+                </div>
+            </div>
+            <div class="kategorien mx-auto">
+                    <div class="til"></div>
+                    <div class="check-til mt-[25px] text-[14px]">
+                          <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="agree" class="w-4 h-4">
+                            <span>Eckige Töpfe</span>
+                        </label>
+                          <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="agree" class="w-4 h-4">
+                            <span>Runde Töpfe</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="agree" class="w-4 h-4">
+                            <span>Untersetzer</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="agree" class="w-4 h-4">
+                            <span>Pflanzschalen</span>
+                        </label>
+                    </div>
+
+                    <div class="pic-2 relative w-[215px] h-[265px] bg-cover bg-center">
+                        <div class="absolute inset-0 bg-black/40"></div> 
+                        <h5 class="relative w-[150px] h-[57px] ml-[24px] font-extrabold text-[18.9px] text-white">Grow your own favourite plant</h5>
+                        <span class="relative flex items-center space-x-1 mt-[145px] ml-[24px] text-[12px] text-white">
+                        Shop Now&nbsp;<ion-icon name="arrow-forward-circle-outline" class="text-[18px]"></ion-icon>
+                    </span>
+                    </div>
+                    <div class="parameter ml-[15px] mt-[50px] text-gray-400">
+                        <h3>Filter By Price</h3>
+                        <div class="prices w-[233px] h-[9px]"></div>
+                        <div class="flex justify-between w-[234px]"><h6>From $0 to $8000</h6><h6>Filter</h6></div>
+                    </div>
+                    <div class="parameter ml-[15px] mt-[25px] text-gray-400">
+                        <h3>Filter By Size</h3>
+                        <div class="size w-[233px] h-[9px]"></div>
+                        <div class="flex justify-between w-[234px]"><h6>2 mm by 50</h6><h6>Filter</h6></div>
+                    </div>
+            </div>
+    </section>
+       <div class="flex items-center justify-center mt-[40px] mb-[100px]">
+            <div class="es w-[888px] h-[246px]"></div>
+        </div>
+        <div class="ex flex items-center justify-center">
+        </div>
+</body>
+</html>
